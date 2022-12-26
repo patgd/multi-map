@@ -11,6 +11,7 @@
 		43414B79295A3A13006183BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43414B78295A3A13006183BC /* ContentView.swift */; };
 		43414B7B295A3A14006183BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43414B7A295A3A14006183BC /* Assets.xcassets */; };
 		43414B7E295A3A14006183BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43414B7D295A3A14006183BC /* Preview Assets.xcassets */; };
+		43414B86295A4FE2006183BC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43414B85295A4FE2006183BC /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		43414B7A295A3A14006183BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43414B7D295A3A14006183BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43414B7F295A3A14006183BC /* MultiMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiMap.entitlements; sourceTree = "<group>"; };
+		43414B85295A4FE2006183BC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				43414B76295A3A13006183BC /* MultiMapApp.swift */,
 				43414B78295A3A13006183BC /* ContentView.swift */,
+				43414B85295A4FE2006183BC /* Location.swift */,
 				43414B7A295A3A14006183BC /* Assets.xcassets */,
 				43414B7F295A3A14006183BC /* MultiMap.entitlements */,
 				43414B7C295A3A14006183BC /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43414B79295A3A13006183BC /* ContentView.swift in Sources */,
+				43414B86295A4FE2006183BC /* Location.swift in Sources */,
 				43414B77295A3A13006183BC /* MultiMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
